@@ -25,17 +25,27 @@ def part2():
     a = torch.tensor([10, 20, 30])
     b = torch.tensor([1, 2, 3])
     print("A: ",a)
+    ad=a+10
+    print("Add A+10: ", ad)
+    su=a-10
+    print("Subtation A-10: ", su)
+    mu=a*10
+    print("Multiplication A*10: ", mu)
+    di=a/10
+    print("Division A/10: ", di)
+    print()
+    print("Matrix X Matrix")
+    print("A: ",a)
     print("B: ",b)
     add=a+b
-    print("Addition: ",add)
+    print("Addition A+B: ",add)
     sub=a-b
-    print("Subtration: ",sub)
+    print("Subtration A-B: ",sub)
     mul=a*b
-    print("Multiplication: ",mul)
+    print("Multiplication A*B: ",mul)
     div=a/b
-    print("Division: ",div)
+    print("Division A/B: ",div)
     print()
-
 def part3():
     print("Part 3: Squeezing, unsqueezing, and transforming")
 
